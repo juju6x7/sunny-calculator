@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Digital-7;
+    src: url("digital-7.regular.ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(131, 109, 255);
+}
+
+form {
+    margin-top: 50vh;
+    /* Pousser de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    /* Tirer de la moitié de sa propre hauteur */
+}
+
+table {
+    margin: auto;
+    background-color: coral;
+    width: 295px;
+    max-width: 295px;
+    height: 325px;
+    border-radius: 12px;
+    padding-right: 10px;
+    border-color: salmon;
+}
+
+#screen {
+    width: 280px;
+    border-bottom: 2px #675555 solid;
+    border-bottom-color: #09efff;
+    background-color: #36f2ff;
+}
+
+form input[type=text] {
+    font-family:'Digital-7';
+    font-size: 2rem;
+    padding-right: 20px;
+    text-align: right;
+}
+
+form input[type=text]:hover {
+    margin-bottom: 15px;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+input:hover {
+    margin: 5px;
+    box-shadow: 0 4px #b80000;
+}
+
+.operator {
+    background-color: khaki;
+    position: relative;
+}
+
+.operator:hover {
+    box-shadow: 0 4px red;
+}
+
+#clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: yellowgreen;
+}
+
+#clear:hover {
+    float: left;
+    display: relative;
+    background-color: rgb(255, 150, 206);
+    margin: 5px;
+    box-shadow: 0 4px #ff008c;
+}
+
+#equal:hover {
+    float: left;
+    display: relative;
+    background-color: rgb(212, 255, 0);
+    margin: 5px;
+    box-shadow: 0 4px #ff008c;
+}
