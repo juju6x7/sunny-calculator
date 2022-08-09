@@ -97,3 +97,19 @@ input:hover {
     margin: 5px;
     box-shadow: 0 4px #ff008c;
 }
+
+.me{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.fa-brands{
+    font-size: 2rem;
+    padding:5px;
+    color:white;
+}
+
+.fa-brands:hover{
+    color:aqua;
+}
